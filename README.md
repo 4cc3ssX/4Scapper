@@ -18,7 +18,7 @@ COOKIES = {"HERE_IS_COOKIE_KEY":"COOKIE_VALUE","ANOTHER_COOKIE_KEY":"COOKIE_VALU
  -> `Give target only single support for scanning replace !! where ur payload will gonna replace.`  
  If METHOD is POST your post data would be needed for request to server so write in json format. Example :  
  ```html
- <form action="#" method="get">
+ <form action="#" method="POST">
   <input type="hidden" name="token" value="1234"/>
   <input type="text" name="username"/>
   <input type="password" name="password"/>
