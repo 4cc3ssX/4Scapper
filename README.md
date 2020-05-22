@@ -2,6 +2,13 @@
 This is a vulnerable scanner using python for LFI, RFI, RCE, SQLi, XSS. Thanks for using and feel free to report issues or bugs.
 
 # Usage
+`If you need for adding extra HTTP HEADERS or setting COOKIES open text editor and insert HEADERS and COOKIES variable in json format.`
+```python
+...
+HEADERS = {"HERE_IS_HEADER_NAME":"HEADER_VALUE","ANOTHER_HEADER_NAME":"HEADER_VALUE"}
+COOKIES = {"HERE_IS_COOKIE_KEY":"COOKIE_VALUE","ANOTHER_COOKIE_KEY":"COOKIE_VALUE"}
+...
+```
 ```bash
  python3 4scapper.py
  ```
