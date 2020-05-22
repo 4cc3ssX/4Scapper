@@ -15,7 +15,15 @@ COOKIES = {"HERE_IS_COOKIE_KEY":"COOKIE_VALUE","ANOTHER_COOKIE_KEY":"COOKIE_VALU
  -> `Choice a number for vulnerable type.`  
  -> `Give custom payload path or use default payload.`  
  -> `Give regex or search string that ur payload will output enter if use default.`  
- -> `Give target only single support for scanning replace !! where ur payload will gonna replace.`  
+ -> `Give target only single support for scanning replace !! where ur payload will gonna replace.` 
+ Example :
+ ```
+ 0x0(1)@(LFI)~(lfi_payloads/default.txt)(TARGET)> http://example.com/vulnerable.php?view=!!
+ ```
+ will be send as :
+ ```
+ 0x0(1)@(LFI)~(lfi_payloads/default.txt)(TARGET)> http://example.com/vulnerable.php?view=/etc/passwd
+ ```
  If METHOD is POST your post data would be needed for request to server so write in json format. Example :  
  ```html
  <form action="#" method="POST">
