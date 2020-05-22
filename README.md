@@ -22,11 +22,7 @@ This is a vulnerable scanner using python for LFI, RFI, RCE, SQLi, XSS. Thanks f
  ```json
  {"token":"1234","username":"admin'OR ''='","password":"fakepsw","submit":"Submit"}
  ```
- Note: you have to write in json format, set values and keys with double quote -> 
- ```json
- "key":"value"
- ``` 
- not single code.
+ Note: you have to write in json format, set values and keys with double quote -> `"key":"value"` not single code.
  
  # Disclaimer
  I will not responsible for any misuses or scanning in unauthorized networks or computers. Use at your own risk.
