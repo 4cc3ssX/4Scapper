@@ -12,10 +12,10 @@ COOKIES = {"HERE_IS_COOKIE_KEY":"COOKIE_VALUE","ANOTHER_COOKIE_KEY":"COOKIE_VALU
 ```bash
  python3 4scapper.py
  ```
- Choice a number for vulnerable type.  
- Give custom payload path or use default payload.  
- Give regex or search string that ur payload will output enter if use default.  
- Give target only single support for scanning replace !! where ur payload will gonna replace.
+ -> `Choice a number for vulnerable type.`  
+ -> `Give custom payload path or use default payload.`  
+ -> `Give regex or search string that ur payload will output enter if use default.`  
+ -> `Give target only single support for scanning replace !! where ur payload will gonna replace.`  
  If METHOD is post your post data would be needed for request to server so write in json format. Example :  
  ```html
  <form action="#" method="get">
